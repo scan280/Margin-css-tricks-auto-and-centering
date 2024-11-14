@@ -1,0 +1,28 @@
+html {
+    box-sizing: border-box;
+    background-color: blue;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+.title-1 {
+    background-color: brown;
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    border: 5px solid black;
+    /*margin: 0 3em 0 3em;
+/*Margin: top, right, bottom, left*/
+
+    margin: 0 3em;
+/* If only two values are given , css will assign 
+them automatically
+i.e Margin: 0 3em then it assigns 0 3em
+*/ 
+
+}
+
